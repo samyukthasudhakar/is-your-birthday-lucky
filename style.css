@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background: url("bg.svg") no-repeat ;
+    background-size: cover;
+    font-family: Montserrat;
+    color:white;
+    margin-bottom: 0;
+}
+
+p{
+    font-weight:bold;
+    margin : 1rem;
+    padding : 0.5rem;
+}
+
+input,button{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.3)
+    );
+    color:black;
+    border:none;
+    border-radius: 0.5rem;
+    margin : 1rem;
+    padding : 0.5rem;
+    outline:none;
+}
+
+::placeholder {
+    color:black;
+}
+
+.parent{
+    min-height: 100vh;
+}
+
+.container{
+    flex-grow:1;
+    flex-direction: column;
+    align-items: center;
+    margin : auto;
+    padding: 0.5rem 0; 
+    width : 70vw;
+    display : flex;
+}
+
+.lucky_Number{
+    height: 1.3rem;
+    width:8.1rem;
+}
+
+.gif{
+    max-width: 150px;
+    margin:auto;
+    padding-top:1rem; 
+    display:none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width : 100%;
+    bottom:0;
+}
+
+.footer_icon{
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.5rem;
+}
