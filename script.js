@@ -40,11 +40,11 @@ const checkLuckiness=()=>{
 
         if (result==0){
             display.innerHTML = "Your birthday is lucky 🎉";
-            gif.src = "lucky.webp";
+            gif.src = "assets/lucky.webp";
             gif.style.display = "block";
         }else{
             display.innerHTML = "Your birthday may not be lucky, but you are awesome 🤗";
-            gif.src = "notlucky.webp";
+            gif.src = "assets/notlucky.webp";
             gif.style.display = "block";
         }
     }
