@@ -43,7 +43,7 @@ const checkLuckiness=()=>{
             gif.src = "assets/lucky.webp";
             gif.style.display = "block";
         }else{
-            display.innerHTML = "Your birthday may not be lucky, but you are awesome 🤗";
+            display.innerHTML = "Your birthday is not lucky, but you are awesome 🤗";
             gif.src = "assets/notlucky.webp";
             gif.style.display = "block";
         }
